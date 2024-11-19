@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-	//de bài cho pi = 3.14   và bán kính kính hinh tron dai dien = 5
+	//de bÃ i cho pi = 3.14   vÃ  bÃ¡n kÃ­nh kÃ­nh hinh tron dai dien = 5
 	int PI = 3.14;
 	int bankinh = 5; 
 	int chuvi = 2 * PI * bankinh;	
