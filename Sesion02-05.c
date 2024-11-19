@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main(){
-	//chieu dai num1    chieu rong num2 
-	int num1 = 10;
-	int num2 = 15;
-	int chuvi = 2 * (num1 +num2);
-	printf("chu vi hinh chu nhat la: %d",chuvi);
+	//de bài cho pi = 3.14   và bán kính kính hinh tron dai dien = 5
+	int PI = 3.14;
+	int bankinh = 5; 
+	int chuvi = 2 * PI * bankinh;	
+	printf("Chu vi hinh tron la: %d",chuvi);
 	
-	int dientich = num1 * num2;
-	printf("\n dien tich hinh chu nhat la: %d",dientich);
+	int dientich = PI * bankinh * bankinh;
+	printf("\n Dien tich hinh tron la: %d",dientich);
 	
-	return 0; 	 
+	return  0; 
 } 
